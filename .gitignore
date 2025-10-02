@@ -1,0 +1,5 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/ venv/ env/ */.venv/ */venv/ py*/ Lib/ Scripts/
+.pytest_cache/ .mypy_cache/ .ruff_cache/ .ipynb_checkpoints/
