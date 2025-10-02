@@ -1,21 +1,17 @@
-# Python
-__pycache__/
-*.py[cod]
-*.egg-info/
-.venv/ venv/ env/ */.venv/ */venv/ */env/
-py*/          # e.g., py311/
+# Ignore everything by default
+/*
 
-# Native/Binaries
-*.pyd
-*.dll
-*.lib
-*.so
-*.dylib
-
-# Builds/Logs
-build/ dist/ wheels/ *.log
-
-# IDE/OS
-.vscode/ .idea/
-*.user *.suo
-.DS_Store Thumbs.db
+# Allow only these:
+!.gitignore
+!.gitattributes
+!README.md
+!LICENSE
+!requirements.txt
+!pyproject.toml
+!setup.cfg
+!main.py
+!app/**           # your FastAPI package if you have it
+!src/**           # or src layout
+!scripts/**       # utility scripts
+!.github/**       # CI
+!assets/**        # only small assets
