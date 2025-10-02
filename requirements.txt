@@ -1,0 +1,21 @@
+# --- Core API ---
+fastapi>=0.110,<1.0
+uvicorn[standard]>=0.23,<1.0
+pydantic>=2.6,<3.0
+python-multipart>=0.0.9,<0.1
+
+# --- Computer Vision (lightweight) ---
+numpy>=1.26,<3.0
+opencv-python>=4.9,<5.0
+Pillow>=10,<12
+
+# --- Optional: ONNX runtime ---
+onnxruntime>=1.17,<2.0
+
+# --- Tooling ---
+loguru>=0.7,<1.0
+python-dotenv>=1.0,<2.0
+
+# --- Optional: PyTorch CPU ---
+# torch>=2.2,<3.0
+# torchvision>=0.17,<1.0
