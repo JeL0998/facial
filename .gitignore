@@ -1,5 +1,20 @@
+# Python
 __pycache__/
 *.py[cod]
 *.egg-info/
-.venv/ venv/ env/ */.venv/ */venv/ py*/ Lib/ Scripts/
-.pytest_cache/ .mypy_cache/ .ruff_cache/ .ipynb_checkpoints/
+.venv/ venv/ env/ */.venv/ */venv/ */env/
+py*/        # e.g., py311/ (your current venv)
+.ipynb_checkpoints/
+
+# Native/Binaries (never in Git)
+*.pyd
+*.dll
+*.lib
+*.so
+*.dylib
+build/ dist/ wheels/
+
+# IDE/OS
+.vscode/ .idea/
+*.user *.suo
+.DS_Store Thumbs.db
