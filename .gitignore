@@ -3,16 +3,17 @@ __pycache__/
 *.py[cod]
 *.egg-info/
 .venv/ venv/ env/ */.venv/ */venv/ */env/
-py*/        # e.g., py311/ (your current venv)
-.ipynb_checkpoints/
+py*/          # e.g., py311/
 
-# Native/Binaries (never in Git)
+# Native/Binaries
 *.pyd
 *.dll
 *.lib
 *.so
 *.dylib
-build/ dist/ wheels/
+
+# Builds/Logs
+build/ dist/ wheels/ *.log
 
 # IDE/OS
 .vscode/ .idea/
